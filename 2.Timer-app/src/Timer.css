@@ -1,0 +1,63 @@
+.timer {
+  width: 300px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background: #0f172a; /* koyu lacivert */
+  color: #e5e7eb;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.timer p {
+  margin: 0;
+}
+
+.timer b {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.timer-time {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #38bdf8; /* açık mavi */
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.timer-buttons button {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.timer-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+.start {
+  background: #22c55e;
+  color: #052e16;
+}
+
+.stop {
+  background: #ef4444;
+  color: #450a0a;
+}
+
+.reset {
+  background: #eab308;
+  color: #422006;
+}
